@@ -1,18 +1,8 @@
 # Number Plate Recognition Using CNN
 
-This project implements a system to detect vehicle number plates and recognize the characters on them using Convolutional Neural Networks (CNN). The project is focused on recognizing number plates from Punjab, but can be adapted for other regions.
+This project implements a system to detect vehicle number plates and recognize the characters on them using Convolutional Neural Networks (CNN).
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [Model](#model)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+![Screenshot 2024-06-08 194405](https://github.com/athalie-aurora/numberplate_recognition/assets/119656945/7d374e7b-83e6-4268-9d6b-d4e8f5257d23)
 
 ## Overview
 
@@ -35,7 +25,15 @@ This project includes:
    cd numberplate_recognition
    ```
 
-2. Create and activate a virtual environment:
+2. Environment
+
+ Add virtual environment [download here](https://drive.google.com/drive/folders/1yNgtb8TlkLglAlH8y4ycsIATHwsL5Whv?usp=sharing) by [@athalie-aurora](https://github.com/athalie-aurora)
+
+   ```sh
+   auwenv\Scripts\activate
+   ```
+
+  or Create and activate a virtual environment 
 
    ```sh
    python -m venv env
@@ -47,13 +45,15 @@ This project includes:
    pip install -r requirements.txt
    ```
 
-## Usage
+## Image
 
-1. Place the images you want to process in the `images` directory.
-2. Run the script to detect and recognize number plates:
-   ```sh
-   python main.py
-   ```
+
+![Screenshot 2024-06-08 194526](https://github.com/athalie-aurora/numberplate_recognition/assets/119656945/1221b427-8146-4cb9-bbdc-a7088a699dfd)
+
+![Screenshot 2024-06-08 194550](https://github.com/athalie-aurora/numberplate_recognition/assets/119656945/869eaea2-1d5e-4acb-ac98-fb9970259d34)
+
+
+
 
 ## Model
 
