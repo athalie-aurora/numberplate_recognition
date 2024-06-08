@@ -40,10 +40,6 @@ This project includes:
    source env/bin/activate  # On Windows use `env\Scripts\activate`
    ```
 
-3. Install the required packages:
-   ```sh
-   pip install -r requirements.txt
-   ```
 
 ## Image
 
